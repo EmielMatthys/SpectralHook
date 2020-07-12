@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -m32 -shared -Wl,-soname,libSpectralHook.so -o libSpectralHook.so CMakeFiles/SpectralHook.dir/spectralhook.cpp.o CMakeFiles/SpectralHook.dir/entrypoint.cpp.o CMakeFiles/SpectralHook.dir/Utils/Logger/CGameConsoleLogger.cpp.o CMakeFiles/SpectralHook.dir/Hooks/ClientModeCreateMove.cpp.o 

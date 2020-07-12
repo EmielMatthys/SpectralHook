@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SpectralHook"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpectralHook">
+				<Option output="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/libSpectralHook.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpectralHook"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpectralHook/fast">
+				<Option output="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/libSpectralHook.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpectralHook/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Hooks/ClientModeCreateMove.cpp">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Hooks/Hooks.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/FindPattern.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/Interfaces.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/Logger/CGameConsoleLogger.cpp">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/Logger/CGameConsoleLogger.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/Logger/ILogger.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/NetVars.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/Utils/Virtuals.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/entrypoint.cpp">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Classes/CBaseEntity.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Classes/CBaseHandle.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Classes/ClientClass.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Classes/RecvTable.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Classes/Vector.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Definitions/Const.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/IBaseClientDll.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/IClientEntityList.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/IClientMode.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/ICvar.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/IEngineClient.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/IPanel.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Interfaces/ISurface.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Structures/CUserCmd.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Structures/Color.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/tf2/Structures/PlayerInfo.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/include/vmthook/vmthook.h">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/spectralhook.cpp">
+			<Option target="SpectralHook"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

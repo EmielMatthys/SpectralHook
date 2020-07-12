@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/spectralho.dir/main.cpp.o  -o spectralho 

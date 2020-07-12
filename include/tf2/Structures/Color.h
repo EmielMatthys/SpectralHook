@@ -1,0 +1,19 @@
+//
+// Created by emiel on 8/07/20.
+//
+
+#ifndef SPECTRALHOOK_COLOR_H
+#define SPECTRALHOOK_COLOR_H
+
+struct Color {
+    Color(int r, int g, int b, int a = 255) {
+        value[0] = static_cast<unsigned char>(r);
+        value[1] = static_cast<unsigned char>(g);
+        value[2] = static_cast<unsigned char>(b);
+        value[3] = static_cast<unsigned char>(a);
+    }
+
+    unsigned char value[4];
+};
+
+#endif //SPECTRALHOOK_COLOR_H

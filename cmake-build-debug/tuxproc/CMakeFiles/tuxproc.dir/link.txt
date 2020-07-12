@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libtuxproc.so -o libtuxproc.so CMakeFiles/tuxproc.dir/src/process.cpp.o CMakeFiles/tuxproc.dir/src/region.cpp.o 

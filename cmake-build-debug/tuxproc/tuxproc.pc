@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/usr/local/lib64
+sharedlibdir=/usr/local/lib64
+includedir=/usr/local/include/tuxproc
+
+Name: tuxproc
+Description: TuxProc process memory library
+Version: 1.0.0
+
+Requires:
+Libs: -ltuxproc
+Cflags: -I${includedir}

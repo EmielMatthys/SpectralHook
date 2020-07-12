@@ -1,0 +1,3 @@
+/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/CMakeFiles/SpectralHook.dir
+/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/CMakeFiles/edit_cache.dir

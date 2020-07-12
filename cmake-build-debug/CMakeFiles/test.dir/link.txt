@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/test.dir/main.cpp.o  -o test  -L/home/emiel/CLionProjects/SpectralHook/./injector/src/linux -Wl,-rpath,/home/emiel/CLionProjects/SpectralHook/./injector/src/linux -linjector 

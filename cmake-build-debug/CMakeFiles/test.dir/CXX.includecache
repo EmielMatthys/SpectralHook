@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emiel/CLionProjects/SpectralHook/injector/include/injector.h
+windows.h
+-
+sys/types.h
+-
+
+/home/emiel/CLionProjects/SpectralHook/main.cpp
+iostream
+-
+injector/include/injector.h
+/home/emiel/CLionProjects/SpectralHook/injector/include/injector.h
+

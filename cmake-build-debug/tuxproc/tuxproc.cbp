@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tuxproc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tuxproc\;CMake Files\tuxproc\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tuxproc">
+				<Option output="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/libtuxproc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/emiel/CLionProjects/SpectralHook/tuxproc/include"/>
+					<Add directory="/home/emiel/CLionProjects/SpectralHook/tuxproc/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 tuxproc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tuxproc/fast">
+				<Option output="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/libtuxproc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/emiel/CLionProjects/SpectralHook/tuxproc/include"/>
+					<Add directory="/home/emiel/CLionProjects/SpectralHook/tuxproc/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 tuxproc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/emiel/CLionProjects/SpectralHook/cmake-build-debug/tuxproc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/tuxproc/src/process.cpp">
+			<Option target="tuxproc"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/tuxproc/src/region.cpp">
+			<Option target="tuxproc"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/tuxproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tuxproc\"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/tuxproc/cmake/BuildType.cmake">
+			<Option virtualFolder="CMake Files\tuxproc\cmake\"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/tuxproc/cmake/TuxProcConfig.cmake.in">
+			<Option virtualFolder="CMake Files\tuxproc\cmake\"/>
+		</Unit>
+		<Unit filename="/home/emiel/CLionProjects/SpectralHook/tuxproc/cmake/tuxproc.pc.cmakein">
+			<Option virtualFolder="CMake Files\tuxproc\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
